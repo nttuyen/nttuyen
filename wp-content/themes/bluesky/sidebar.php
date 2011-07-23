@@ -1,5 +1,12 @@
 	<div id="sidebar">
 		<ul>
+			<?php //#nttuyen?>
+			<li>
+				<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+			</li>
+			<?php wp_list_categories('show_count=0&orderby=id&title_li=<h2>Categories</h2>'); ?>
+			<?php //#nttuyen edit end?>
+			
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 			<li>
