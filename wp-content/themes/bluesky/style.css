@@ -46,7 +46,8 @@ body {
 	} 
 
 #content {
-	font-size: 1.2em
+	font-size: 1.2em;
+	float: left;
 	}
 
 .widecolumn .entry p {
@@ -245,7 +246,7 @@ body {
 
 .widecolumn {
 	padding: 10px 0 20px 0;
-	margin: 5px 0 0 150px;
+	margin: 0px 0 0 45px;
 	width: 450px;
 	}
 
